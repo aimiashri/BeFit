@@ -385,7 +385,7 @@ ul.team-icon li a.linkedin{
   display: 
 }
 .testimonial-section-bottom h2 {
-  margin-top: 1.5rem;
+  margin-top: 0rem;
 }
 
 /* .work-section-wrapper {
@@ -448,6 +448,7 @@ ul.team-icon li a.linkedin{
     max-width: 600px;
   }
 }
+
 @media (max-width: 800px) {
   .nav-logo-container {
     max-width: 140px;
@@ -466,6 +467,7 @@ ul.team-icon li a.linkedin{
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    margin-top: 0rem;
   }
   .about-section-container {
     flex-direction: column;
@@ -517,5 +519,11 @@ ul.team-icon li a.linkedin{
     margin-right: 0rem !important;
   }
 
+  .new-testimonial-container{
+    display: grid;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #FAEAB1;
+  }
   
 }

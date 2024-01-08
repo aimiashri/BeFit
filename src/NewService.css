@@ -1,0 +1,236 @@
+*{
+
+  .primary-subheading-service {
+    font-weight: 700;
+    color: #fe9e0d;
+    font-size: 3.0rem;
+  }
+
+  .service-section-text-container p{
+    text-align: center;
+    max-width: 700px !important;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-section-text-container h1 {
+    max-width: 700px !important;
+    margin-bottom: 18rem;
+  }
+  .service-section-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-bottom: 18rem;
+  }
+    .new-service-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #FAEAB1;
+  }
+  
+  .new-left-section,
+  .new-middle-section,
+  .new-right-section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+  }
+  
+  .new-left-section::before,
+  .new-right-section::before {
+    content: '';
+    display: block;
+    width: 1px;
+    background-color: #ccc;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .new-left-section::before {
+    left: 0; /* Adjust the position as needed */
+  }
+  
+  .new-right-section::before {
+    right: 0; /* Adjust the position as needed */
+  }
+  
+  .new-left-section h2 {
+    text-align: center;
+  }
+
+  .new-middle-section h2 {
+    text-align: center;
+  }
+
+  .new-left-section .description {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.0rem;
+  }
+
+  .new-middle-section .description {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.0rem;
+  }
+
+  .new-right-section .description {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.0rem;
+  }
+
+  .new-left-section .calculator-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .new-left-section .calculator-photo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .new-right-section .food-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .new-right-section .food-item img {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .new-right-section .food-item p {
+    margin: 0;
+  }
+
+    .new-right-section .centered-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .new-right-section h2 {
+        margin-bottom: 10px;
+    }
+
+    .food-item {
+        margin-top: 20px; 
+    }
+    
+    .food-item img {
+        width: 20%; /* Adjust the width of the image */
+        height: 60px; /* Maintain the aspect ratio */
+    }
+
+    .food-item img {
+        width: 20%; /* Adjust the width as needed */
+        height: 70px; /* Maintain the aspect ratio */
+        display: block;
+        float: left;
+        margin: 5px /* Center the image */
+    }
+    
+    .subscribe-button {
+        display: flex;
+        padding: 0.9rem 1.75rem;
+        background-color: #f4a836;
+        outline: none;
+        border: none;
+        border-radius: 5rem;
+        font-size: 0.9rem;
+        cursor: pointer;
+        font-weight: 600;
+        transition: 0.2s;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px; /* Adjust the top margin to move it further from the noodle photo */
+        margin-left: 130px;
+    }
+
+    .subscribe-button-bmi{
+      display: flex;
+      padding: 0.9rem 1.75rem;
+      background-color: #ffffff;
+      outline: none;
+      border: none;
+      border-radius: 5rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: 0.2s;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px; /* Adjust the top margin to move it further from the noodle photo */
+      margin-left: 160px;
+  }
+
+    .subscribe-button:hover {
+      background-color: #ffffff
+    }
+
+    .subscribe-button-bmi:hover {
+      background-color: #9f8e75;
+    }
+
+    .subscribe-button-calc {
+        text-align: center; /* Center-align the button */
+        margin-top: 20px; /* Adjust the top margin to move it further from the noodle photo */
+    } 
+
+    .subscribe-button-diet {
+        text-align: center; /* Center-align the button */
+        margin-top: 20px; /* Adjust the top margin to move it further from the noodle photo */
+    } 
+
+    .food-item-1 img {
+        width: 20%; /* Adjust the width as needed */
+        height: 60px; /* Maintain the aspect ratio */
+        display: block;
+        margin: 0 auto; /* Center the image */
+        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .food-item-corn img{
+        width: 30%; /* Adjust the width as needed */
+        height: 70px; /* Maintain the aspect ratio */
+        display: block;
+        margin: 0 auto; 
+        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .food-item-corn {
+        text-align: center; /* Center text within the food-item */
+    }
+
+    .food-item-avo img{
+        width: 30%; /* Adjust the width as needed */
+        height: 90px; /* Maintain the aspect ratio */
+        display: block;
+        margin: 0 auto; 
+    }
+
+    .food-item-avo {
+        text-align: center; /* Center text within the food-item */
+        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .food-item-1 {
+        text-align: center; /* Center text within the food-item */
+    }
+}

@@ -3,6 +3,7 @@ import ProfilePic from "../Assets/hanistest.png";
 import ProfilePic2 from "../Assets/naylitest.png";
 import ProfilePic3 from "../Assets/athirahtest.png";
 import { AiFillStar } from "react-icons/ai";
+import AboutBackgroundTest1 from "../Assets/about-background.png";
 
 const Testimonial = () => {
   return (
@@ -15,13 +16,16 @@ const Testimonial = () => {
         </p>
       </div>
       
+      <div className="about-section-container">
+        <div className="about-background-image-container">
+          <img src={AboutBackgroundTest1} alt="" />
+        </div>
         <div className="testimonial-section-bottom">
           <img src={ProfilePic} alt="" />
           <p>
-            " I cannot begin to tell you how much I love being a user in BeFit! 
-            After using it for almost 6 months, I have noticed a lot of positive changes
-            happening to my body. My lifestyle is definitely better than ever, and I never felt tired like I used to.
-            Totally worth my money! "
+            "  Say no more to insecurities— I gained more confidence now thanks to BeFit!
+              The healthy video recipes definitely helped me so much, it changed how I ate normally.
+              Go and be a user now if you still haven't! "
           </p>
           <div className="testimonials-stars-container">
             <AiFillStar />
@@ -36,9 +40,10 @@ const Testimonial = () => {
         <div className="testimonial-section-bottom">
           <img src={ProfilePic2} alt="" />
           <p>
-            " Say no more to insecurities— I gained more confidence now thanks to BeFit!
-              The healthy video recipes definitely helped me so much, it changed how I ate normally.
-              Go and be a user now if you still haven't! "
+            " I cannot begin to tell you how much I love being a user in BeFit! 
+            After using it for almost 6 months, I have noticed a lot of positive changes
+            happening to my body. My lifestyle is definitely better than ever, and I never felt tired like I used to.
+            Totally worth my money! "
           </p>
           <div className="testimonials-stars-container">
             <AiFillStar />
@@ -67,6 +72,7 @@ const Testimonial = () => {
           </div>
           <h2>Athirah Azlan</h2>
         </div>
+      </div>
     </div>
   );
 };
